@@ -13,7 +13,7 @@ public class RateActivity extends AppCompatActivity {
 
         Intent intent = new Intent();
         intent.putExtra("source", "Free Vision");
-        intent.putExtra("url", "https://exchange.faircoin.co/data/ticker");
+        intent.putExtra("url", "https://fairo.exchange/data/ticker");
         setResult(Activity.RESULT_OK, intent);
         finish();
     }
